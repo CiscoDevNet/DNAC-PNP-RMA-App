@@ -1,7 +1,7 @@
-# PNP RMA App
+# DNAC-PNP RMA App
 
 ## Description
-**PNP RMA App** helps in restoring the configuration from failed/old Cisco devices with newly shipped device.
+**DNAC-PNP RMA App** helps in restoring the configuration from faulty/old Cisco devices with newly shipped device. Post RMA the new device would have the exact same configuration as the faulty/old device.
 
 ### RMA Process
 1. Device connects(ssh) to the faulty/old device
@@ -20,12 +20,12 @@
 
 ## Run from Docker
 Run docker container with input parameters
- **docker run -p3000:3000 -p7001:7001  -e CLUSTER_IP="172.23.165.111" -e USERNAME="admin" -e PASSWORD="Maglev123"  pnp-rma-new:latest**
+- **docker run -p3000:3000 -p7001:7001  -e CLUSTER_IP="172.23.165.111" -e USERNAME="admin" -e PASSWORD="abc123"  ciscopnp/rmaapp**
 
-**args**
--   CLUSTER_IP              =>  DNAC Cluster IP
--   USERNAME                =>  DNAC Username
--   PASSWORD                =>  DNAC Password
+- **args**
+    -   CLUSTER_IP              =>  DNAC Cluster IP
+    -   USERNAME                =>  DNAC Username
+    -   PASSWORD                =>  DNAC Password
 
 ## Install and run locally  (Ignore if using PNP RMA App in docker)
 1. Clone the repo from https://wwwin-github.cisco.com/pnp/appdev
@@ -44,7 +44,7 @@ Run docker container with input parameters
 
 
 
-## Using RMA App
+## Using DNAC-PNP RMA App
 
 1. Open URL [http://localhost:3000](http://localhost:3000) in browser
 2. Shows up all the devices avaialable in DNAC PNP UI
