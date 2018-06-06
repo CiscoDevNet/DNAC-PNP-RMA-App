@@ -1,0 +1,6 @@
+{
+  "eem_enable_config_name" : "EEM-Enable-SecLic.txt",
+  "apic_server_ip" : "{IP_ADDRESS}",
+  "username": "{USERNAME}",
+  "password" : "{PASSWORD}"
+}

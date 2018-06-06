@@ -1,0 +1,8 @@
+event manager applet rsa-key
+event timer countdown time 60
+action 1.0 cli command "enable"
+action 1.1 cli command "config t"
+action 1.2 cli command "crypto key generate rsa" pattern "512"
+action 1.3 cli command "1024"
+action 2.0 cli command "no event manager applet rsa-key"
+action 2.1 cli command "end"

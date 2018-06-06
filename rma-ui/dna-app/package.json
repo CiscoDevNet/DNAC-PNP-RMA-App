@@ -1,0 +1,31 @@
+{
+  "name": "dna-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.4.0",
+    "react-event-timeline": "^1.5.3",
+    "react-json-view": "^1.17.0",
+    "react-scripts": "1.1.4",
+    "react-toastify": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.9.1"
+  }
+}

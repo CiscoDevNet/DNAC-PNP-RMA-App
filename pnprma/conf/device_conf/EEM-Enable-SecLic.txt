@@ -1,0 +1,15 @@
+event manager applet Enable-SecLic
+event timer countdown time 20
+action 1.0 cli command "enable"
+action 1.1 cli command "config t"
+action 1.2 cli command "license accept end user agreement" pattern "no"
+action 1.3 cli command "yes"
+action 1.4 cli command "license boot level securityk9" pattern "#"
+action 1.5 cli command "no event manager applet Enable-SecLic"
+action 1.6 cli command "exit"
+action 1.67 cli command "write memory"
+action 2.0 reload
+end
+
+
+

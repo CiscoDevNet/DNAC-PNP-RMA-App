@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.table {
+  margin-top:20px;
+  padding: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #328CC1;
+    font-size: medium;
+}
+
+.center {
+    margin: auto;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.txt-label {
+  font-size:14px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.txt-label-morespace {
+  font-size:14px;
+  font-weight: normal;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: blue;
+  text-align: left;
+}
+
+
+.details {
+  font-size:10px;
+  text-align: left;
+  font-weight: normal;
+  height: 400px;
+  overflow-y: scroll;
+}
