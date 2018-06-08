@@ -32,7 +32,7 @@ Run docker container with input parameters
 2. In Terminal 1,
     -   Navigate to **appdev** directory
     -   Update conf/inputs.json, with DNAC Credentials, DNAC IP Address
-    ![inputs.json](images/input.jpg)
+    ![inputs.json](https://github.com/CiscoDevNet/DNAC-PNP-RMA-App/raw/ReadmeImageURL/images/input.jpg)
     -   Navigate back to **appdev** directory
     -   Run command **pip install .**
     -   Run **pnp-rma**
@@ -48,12 +48,12 @@ Run docker container with input parameters
 
 1. Open URL [http://localhost:3000](http://localhost:3000) in browser
 2. Shows up all the devices avaialable in DNAC PNP UI
-![rma-ui-listview.jpg](images/rma-ui-listview.jpg)
+![rma-ui-listview.jpg](https://github.com/CiscoDevNet/DNAC-PNP-RMA-App/raw/ReadmeImageURL/images/rma-ui-listview.jpg)
 3. Click **Replace** against the device to be replaced
 4. Input the new device serial number
-![rma-ui-listview.jpg](images/rma-ui-replace.jpg)
+![rma-ui-listview.jpg](https://github.com/CiscoDevNet/DNAC-PNP-RMA-App/raw/ReadmeImageURL/images/rma-ui-replace.jpg)
 5. The status starts showing up in status column
-![rma-ui-device-replace.jpg](images/rma-ui-device-replace.jpg)
+![rma-ui-device-replace.jpg](https://github.com/CiscoDevNet/DNAC-PNP-RMA-App/raw/ReadmeImageURL/images/rma-ui-device-replace.jpg)
 6. Once config fetch stage is complete the app waits for the new device to be contacted in PNP, now remove the old device from the network and hook the new device
 7. The new device would call home to the PNP server.
 8. Once the new device is connected, the app moves to the next stage, Provisioning where the app accepts the EULA on the new device and replaces the config from the old device on to the new device.
